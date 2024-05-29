@@ -7,5 +7,6 @@ def leap(nbre):
     else:
         return "NOPE"
 
-year=int(input("Enter a year: "))
-print(leap(year))
+if __name__ == '__main__':
+    year=int(input("Enter a year: "))
+    print(leap(year))
