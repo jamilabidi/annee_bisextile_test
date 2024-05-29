@@ -15,6 +15,7 @@ def test_year_by4_NotBy100():
     assert leap(2008) == "LEAP"
     assert leap(2012) == "LEAP"
     assert leap(2016) == "LEAP"
+    assert leap(2017) == "LEAP"
 
 def test_year_Notby4():
     assert leap(2017) == "NOPE"
