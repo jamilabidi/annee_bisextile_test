@@ -6,3 +6,6 @@ def leap(nbre):
         return "LEAP"
     else:
         return "NOPE"
+
+year=int(input("Enter a year: "))
+print(leap(year))
